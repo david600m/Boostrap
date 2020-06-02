@@ -7,34 +7,63 @@
     <title>Pagina</title>
 </head>
 <body>
-        <header>
-            <div class="bg-dark collapse show p-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-8">
-                            <h4 class="text-white">About</h4>
-                            <p class="text-white-50">
-                              Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.
-                            </p>
-                        </div>
-                        <div class="col-4"></div>
+    <header>
+        <div class="bg-dark collapse show p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <h4 class="text-white about" >About</h4>
+                        <p class="text-white-50" sty>
+                          Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.
+                        </p>
+                    </div>
+                    <div class="col-4">
+                      <h4 class="text-white about">Contact</h4>
+                          <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                            <li><a href="#" class="text-white">Like on Facebook</a></li>
+                            <li><a href="#" class="text-white">Email me</a></li>
+                          </ul>
                     </div>
                 </div>
-            </div>  
-            <nav class="navbar navbar-dark bg-dark shadow-sm">
-              <a class="navbar-brand" href="#">
-                <img src="./assets/img/camera.png" width="30" class="d-inline-block align-top" alt="">
-                Album
-              </a>
-            </nav>
-        </header>
-    <section>
-        <div class="card">
-            <div class="card-body">
-                Aprendiendo  bootstrap
             </div>
-          </div>
-    </section>
+        </div>  
+        <nav class="navbar navbar-dark bg-dark shadow-sm">
+          <div class="container d-flex justify-content-between">
+              <a class="navbar-brand" href="#">
+                  <img src="./assets/img/ar-camera.svg" width="30" class="d-inline-block align-top" alt="">
+                  <span class="font-weight-bolder album">
+                      Album
+                  </span>                    
+                </a>
+          </div>            
+        </nav>
+  </header>
+  
+  <section class="jumbotron text-center">
+      <div class="container">
+            <h1>
+                <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Álbun de ejemplo
+             </font>
+             </font>
+            </h1>
+            <p class="lead text-muted">
+                <font style="vertical-align: inherit;"> 
+                <font style="vertical-align: inherit;">
+                    Algo breve y destacado sobre la colección a continuación: su contenido, el creador, etc. Hazlo corto y dulce, pero no demasiado corto para que la gente no se salte por completo.
+                </font>
+             </font>
+            </p>
+                <p>
+                    <a href="#" class="btn btn-Primario my-2">
+                        <button type="button" class="btn btn-primary">Llamar a la acción</button>
+                        <button type="button" class="btn btn-secondary">Acción secundaria</button>
+                    </a>
+                </p>
+      </div>
+
+  </section>
     <script src="Pagina/bootstrap/js/jquery.slim.min.js"></script>
     <script src="Pagina/bootstrap/js/popper.min.js"></script>
     <script src="Pagina/bootstrap/js/bootstrap.min.js"></script>

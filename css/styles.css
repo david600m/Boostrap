@@ -1,0 +1,33 @@
+        .about {
+    font-size: 28px;;
+        }
+    p {
+    font-size: 20px;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+img {
+    margin-right: 10px;
+    padding-top: 3px;
+}
+.album {
+    font-size: 26px;
+}
+element.style {
+    vertical-align: inherit;
+}
+.jumbotron {
+    padding-top: 3rcm;
+    padding-bottom: 3rcm;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+.text-center {
+    text-align: center!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
